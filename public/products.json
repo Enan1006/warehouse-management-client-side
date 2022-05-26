@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Samsung Galaxy M53 5G",
+        "supplier": "Kevin Aurier",
+        "price": 349.00,
+        "image": "https://i.ibb.co/2j54sYn/samsung-galaxy-m53-5g.jpg",
+        "description": "The Samsung Galaxy M53 5G is the latest smartphone by Samsung in the M-series. This latest device from Samsung arrives as a successor to the Samsung Galaxy M52 5G. The device boasts a 6.7-inch AMOLED display that has Full HD+ resolution. The larger 20:9 aspect ratio display panel has a 393 PPI pixel density and a Corning Gorilla Glass 5 protection. The handset runs Android 12 out of the box with One UI 4.0 skin on top. The device is equipped with a Dimensity 900 processor, which is paired with 6GB of RAM and 128GB of internal storage. The smartphone features a quad-camera setup, which includes a 108MP main camera, 8MP ultra-wide lens, 2MP portrait lens, and a 2MP macro sensor. The device features a 32MP selfie camera that has an f/2.0 aperture. The Galaxy M32 5G packs a 5,000mAh battery that has 25W fast charging support. The handset in terms of connectivity offer features such as dual-SIM card support, Wi-Fi 802.11 b/g/n/ac, Bluetooth v5.1, GPS, USB Type-C port, and a 3.5mm audio jack. The handset also features a side-mounted fingerprint sensor and has face unlock support."
+    },
+    {
+        "name": "Huawei Mate 40 Pro",
+        "supplier": "Oscar Bobb",
+        "price": 1416.00,
+        "image": "https://i.ibb.co/7tTSN6L/huawei-mate40-pro.jpg",
+        "description": "The Mate series from Chinese smartphone behemoth Huawei features some of the best specs and features that you can get from an Android phone. The devices offer excellent value for money as well as technological innovation. The Mate 40 Pro is part of the Mate series lineup for 2020. The Mate 40 Pro features a 6.6-inch OLED display with a resolution of 1176 x 2400 pixels and features an in-screen fingerprint sensor. Under the hood of the Mate 40 Pro is an octa-core Kirin 990 SoC and the phone comes with 8GB RAM and 256GB of storage space. On the back, you have a 48MP + 40MP + 8MP+ 5MP quad camera system and for selfies, the phone is equipped with a 32MP + 2MP dual-camera. The battery capacity of the phone is impressive at 4700mAh and features 40W fast charging as well."
+    },
+    {
+        "name": "Google Pixel 6",
+        "supplier": "James Trafford",
+        "price": 550.00,
+        "image": "https://i.ibb.co/58N6dcR/google-pixel-6.jpg",
+        "description": "Google continues to push its luck in the flagship arena with the Pixel phones. We have seen a slew of Pixel devices from the brand that competes with Apple iPhone and Samsung Galaxy S series. And now, for 2021, the company has introduced the Pixel 6. This phone features a 6.2-inch OLED display with support for Full HD+ resolution at 1080x2340 pixels. The screen gets a punch hole design that offers pixel density of 416 PPI and gets Corning Gorilla Glass 6 protection. The latest Pixel flagship device uses the new Snapdragon 870 octa core chipset, paired with 6GB RAM that brings 5G network support. You get 64GB internal storage that misses out on card slot. This will be the first Pixel phone to carry more than two cameras. For imaging purpose, Pixel 6 comes with a triple rear camera that consists of 16MP sensor, 16MP ultra-wide sensor, and 12MP telephoto sensor. On the front, the phone gets a single 12MP selfie camera that also supports video calls. Google Pixel 6 packs 4500mAh battery that supports fast wired charging via USB Type C port. Additional features that you get with the phone include on-screen fingerprint sensor, face unlock and headphone jack and wireless charging."
+    },
+    {
+        "name": "Apple iPhone 13 Pro",
+        "supplier": "Joe Hart",
+        "price": 999.00,
+        "image": "https://i.ibb.co/3y5W1p4/apple-iphone-13-pro.jpg",
+        "description": "The new year is upon us and that means it is time to build up towards the launch of the new Apple iPhones. This years iPhone 13 series is a continuation to a strategy that started in 2020, with four new models refreshed to the lineup. And this includes the iPhone 13 Pro that sits between regular iPhone 13 and the iPhone 13 Pro Max models. This phone gets a 6.1-inch OLED Retina display with 1170x2532 pixels resolution quality. Like every other iPhone, the 13 Pro runs on latest iOS 15 version out of box. It comes powered by Apple A15 Bionic chipset, paired with 8GB RAM and 128GB storage on offer. The iPhone Pro model gets triple rear cameras that consists of 12MP primary sensor, 12MP ultra-wide sensor and 12MP telephoto sensor. And on the front, the phone has 12MP camera that sits inside the notch at the top. Apple has packed the iPhone 13 Pro with a 3150mAh battery that can be charged using the built-in lightning connector that also supports data transfer. The device offers wired fast charging and supports wireless charging also."
+    },
+    {
+        "name": "Sony Xperia 1 IV",
+        "supplier": "Bob Paisley",
+        "price": 1320.00,
+        "image": "https://i.ibb.co/VHVbKt6/sony-xperia-1-iv.jpg",
+        "description": "Sony Xperia phones continue to sell in multiple markets, even after it exited India few years back. The company has revamped its lineup to give top-quality products for the consumers; the new one is the Xperia 1 IV. This Xperia variant comes with a 6.67-inch OLED display that supports Quad HD+ resolution at 1644x3840 pixels at a pixel density of 626 PPI. It comes powered by octa-core Snapdragon 888 Plus chipset, paired with 12GB RAM and 512GB onboard storage which is further expandable. The phone includes a triple rear camera setup that comprises of a 16MP sensor, a 16MP ultra-wide sensor and 16MP sensor. On the front, the phone has a 12MP selfie camera. Xperia 1 IV comes loaded with a 5000mAh battery that supports fast charging via USB Type C port."
+    },
+    {
+        "name": "LG W41",
+        "supplier": "Matty Hogson",
+        "price": 850.00,
+        "image": "https://i.ibb.co/CnZpWHM/lg-w41.jpg",
+        "description": "LG continues to try its luck with mid-range smartphones in the market. The company has launched the W series to compete with the likes of Xiaomi, Realme and Samsung among others but things haven’t gone according to plan. But even then, the brand has now added a new set of devices to its W series in the form of the W41. This phone comes with a 6.5-inch HD+ display that supports 720x1600 pixels resolution. It runs on Android 10 operating system. The phone comes powered by octa-core MediaTek Helio G35 processor that gets paired with 4GB RAM and offers 64GB onboard storage which is expandable up to 512GB using the dedicated microSD slot. The W41 gets a quad rear camera that comprises of 48MP sensor and 8MP ultra-wide sensor, 5MP sensor and 2MP depth sensor. On the front, the phone has an 8MP selfie camera. The latest mid-range LG phone gets backed up with a 5,000mAh battery that supports charging via USB Type C port. The fingerprint sensor sits at the back of the phone for additional security and it has headphone jack for wired audio gear support. "
+    }
+]

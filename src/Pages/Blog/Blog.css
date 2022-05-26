@@ -1,0 +1,27 @@
+.qna{
+    margin: 50px;
+}
+.qna-title{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+}
+table {
+    width: 100%;
+  }
+td, th {
+    width: 50%;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px 20px;
+  }
+th{
+    text-align: center;
+}  
+
+@media only screen and (max-width:688px) {
+
+    .qna{
+        margin: 10px;
+    }
+}
