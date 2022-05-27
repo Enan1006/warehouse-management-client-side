@@ -5,6 +5,8 @@ import Home from './Pages/Home/Home/Home';
 import Header from './Pages/Shared/Header/Header';
 import Register from './Pages/Login/Register/Register';
 import Login from './Pages/Login/Login/Login';
+import InventoryItem from './Pages/InventoryItems/InventoryItems';
+import ManageItems from './Pages/ManageItems/ManageItems';
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Home />}></Route>
+        <Route path='/inventory/:inventoryId' element={<InventoryItem />}></Route>
         <Route path='/login' element={<Login />}></Route>
         <Route path='/register' element={<Register />}></Route>
       </Routes>
