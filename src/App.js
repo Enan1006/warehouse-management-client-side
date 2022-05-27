@@ -6,7 +6,7 @@ import Header from './Pages/Shared/Header/Header';
 import Register from './Pages/Login/Register/Register';
 import Login from './Pages/Login/Login/Login';
 import InventoryItem from './Pages/InventoryItems/InventoryItems';
-import ManageItems from './Pages/ManageItems/ManageItems';
+import Blog from './Pages/Blog/Blog';
 
 function App() {
   return (
@@ -15,6 +15,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/inventory/:inventoryId' element={<InventoryItem />}></Route>
+        <Route path='/manage-item' element={<Register />}></Route>
+        <Route path='/blogs' element={<Blog />}></Route>
         <Route path='/login' element={<Login />}></Route>
         <Route path='/register' element={<Register />}></Route>
       </Routes>

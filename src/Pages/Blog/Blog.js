@@ -3,8 +3,8 @@ import "./Blog.css";
 
 const Blog = () => {
   return (
-    <div className="qna">
-      <h2 className="qna-title">Question and Answer</h2>
+    <div className="mx-2 md:mx-10">
+      <h2 className="bg-indigo-200 text-center text-4xl text-indigo-600 py-4">Question and Answer</h2>
       {/* Question and Answer - 01  */}
       <h4 className="mt-5 ms-2">Difference between javascript and node js</h4>
       <div>
