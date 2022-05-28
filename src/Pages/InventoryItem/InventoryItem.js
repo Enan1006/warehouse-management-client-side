@@ -63,7 +63,7 @@ const InventoryItem = () => {
             <div className="border my-5" >
                 <div className="g-0 shadow  my-4 rounded">
                     <div className="col-sm-4">
-                        <img src={image} className="w-4/5" alt="..." />
+                        <img src={image} className="w-52 mx-auto" alt="..." />
                     </div>
                     <div className="col-sm-8 P-0">
                         <div className="p-5 px-4">
@@ -72,8 +72,8 @@ const InventoryItem = () => {
                             <p className="">{description}</p>
                             <p><b>Quantity: </b>{quantity}</p>
                             <p><b>SuplierName: </b>{supplier}</p>
-                            <div className=''>
-                                <button className='' onClick={() => setReStock(!reStock)}>Restock</button>
+                            <div className='my-9'>
+                                <button className='px-6 py-3 bg-indigo-200 text-indigo-600 mr-5' onClick={() => setReStock(!reStock)}>Restock</button>
 
                                 {/* Restock input and submit  */}
                                 {reStock && (
@@ -88,11 +88,10 @@ const InventoryItem = () => {
                                         </form>
                                     </div>
                                 )}
+                                <button className='px-6 py-3 bg-indigo-200 text-indigo-600 mr-5' onClick={handleDeliver}>Delivered</button>
+                                <button onClick={() => navigate('/manage-items')} className='px-6 py-3 bg-indigo-200 text-indigo-600'>Manage</button>
                             </div>
-                            <div className="">
-                                <button className='m-2' onClick={handleDeliver}>Delivered</button>
-                                <button onClick={() => navigate('/manage-items')} className='m-2 btn btn-success'>Manage</button>
-                            </div>
+
                         </div>
                     </div>
                 </div>

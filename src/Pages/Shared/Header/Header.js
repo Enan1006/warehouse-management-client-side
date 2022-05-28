@@ -47,6 +47,22 @@ const Header = () => {
                                 </Link>
                             </li>
                             <li className="nav-item">
+                                <Link to='/manage-items'
+                                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+
+                                >
+                                    <i className="fa-solid fa-user text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Manange Item</span>
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to='/additem'
+                                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+
+                                >
+                                    <i className="fa-solid fa-user text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Add Item</span>
+                                </Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link to='/blogs'
                                     className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
 
@@ -59,8 +75,8 @@ const Header = () => {
                                     user ?
 
                                         <div className='flex'>
-                                            <img src={user.photoURL} alt='' />
-                                            <span>{user.displayName}</span>
+                                            <img className='w-10 h-10 rounded-full' src={user.photoURL} alt='' />
+                                            <span className='mt-2 pr-5 text-white'>{user.displayName}</span>
                                             <button onClick={logout}
                                                 className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug bg-red-200 rounded-lg font-semibold mt-2 text-red-600 hover:opacity-75"
 
