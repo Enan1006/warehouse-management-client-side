@@ -51,7 +51,7 @@ const Header = () => {
                                     className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
 
                                 >
-                                    <i class="fa-solid fa-box-circle-check"></i>
+                                    <i className="fa-solid fa-box-circle-check"></i>
                                     <i className="fa-solid fa-user text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Inventories</span>
                                 </Link>
                             </li>

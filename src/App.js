@@ -13,6 +13,7 @@ import AddItem from './Pages/AddItem/AddItem';
 import RequireAuth from './Pages/Shared/RequireAuth/RequireAuth';
 import Footer from './Pages/Shared/Footer/Footer';
 import MyItem from './Pages/MyItem/MyItem';
+import NotFound from './Pages/Shared/NotFound/NotFound';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path='/about' element={<About />}></Route>
         <Route path='/login' element={<Login />}></Route>
         <Route path='/register' element={<Register />}></Route>
+        <Route path='*' element={<NotFound />}></Route>
       </Routes>
       <Footer />
     </div>

@@ -28,7 +28,7 @@ const ManageItems = () => {
     return (
         <div className='container text-start my-5'>
             <h1 className="text-indigo-600 text-4xl text-center my-10 font-bold">Manage Items</h1>
-            <button onClick={() => navigate('/additem')} className='py-3 px-6 bg-green-200 text-green-600'><i class="fa-solid fa-plus pr-3"></i>Add New Item</button>
+            <button onClick={() => navigate('/additem')} className='py-3 px-6 bg-green-200 text-green-600'><i className="fa-solid fa-plus pr-3"></i>Add New Item</button>
             {
                 inventories.map(inventory => <div key={inventory._id}>
 
@@ -47,7 +47,7 @@ const ManageItems = () => {
                                     <p><b>Suplier Name: </b>{inventory.supplier}</p>
                                     <div className='d-grid mt-2 w-50'>
 
-                                        <button onClick={() => handleDelete(inventory._id)} className='py-3 px-6 mb-7 bg-red-200 text-red-600 rounded-md mt-3'> <span><i class="fa-solid fa-trash-can"></i></span> Delete Item</button>
+                                        <button onClick={() => handleDelete(inventory._id)} className='py-3 px-6 mb-7 bg-red-200 text-red-600 rounded-md mt-3'> <span><i className="fa-solid fa-trash-can"></i></span> Delete Item</button>
                                     </div>
                                 </div>
                             </div>
