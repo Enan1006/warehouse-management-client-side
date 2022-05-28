@@ -11,26 +11,25 @@ import banner3 from '../../../Images/banner/banner-3.jpg';
 const Banner = () => {
     const content = [
         {
-            title: "Solution to any Law related problem",
+            title: "New Items Arrived",
             description:
-                "We are here to solve any kind of problem you are facing in your life",
+                "New products has been arrived. Stocks are limited",
             image: "https://i.ibb.co/NT0GwV3/banner-2.jpg"
 
 
 
         },
         {
-            title: "Top lawyer farm around the world",
+            title: "Quality products",
             description:
-                "I have been practicing law since early 2000s. Manage thousands of cases. My success ratio is 90 percent",
+                "We don't compromise with quality",
             image: "https://i.ibb.co/rck53dV/banner-1.jpg",
 
         },
         {
-            title: "Modern problem, modern solution",
+            title: "Quality services",
             description:
-                "Modern problem requires modern solution.",
-            button: "Buy now",
+                "We provide services after sell",
             image: "https://i.ibb.co/mb6DbGf/banner-3.jpg",
         }
     ];

@@ -5,7 +5,7 @@ const Features = () => {
         <div>
             <div className='py-12'>
                 <h2 className='text-indigo-500 text-4xl text-center font-bold my-7'>Our Features</h2>
-                <div className='grid grid-cols-3 gap-5 mx-9'>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-5 mx-9'>
                     <div className=' border-2 rounded-lg border-gray-100 p-4 shadow-lg shadow-indigo-400'>
                         <h3 className='text-center text-2xl my-5 text-black-400 font-semibold'>SCHEDULE SERVICE</h3>
                         <p>Integrated with your DMS, enable quick and easy service appointments, and empower customers to view service history, invoices and F&I.</p>

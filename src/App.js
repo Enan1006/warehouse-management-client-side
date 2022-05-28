@@ -11,6 +11,8 @@ import InventoryItem from './Pages/InventoryItem/InventoryItem';
 import ManageItems from './Pages/ManageItems/ManageItems';
 import AddItem from './Pages/AddItem/AddItem';
 import RequireAuth from './Pages/Shared/RequireAuth/RequireAuth';
+import Footer from './Pages/Shared/Footer/Footer';
+import MyItem from './Pages/MyItem/MyItem';
 
 function App() {
   return (
@@ -27,10 +29,12 @@ function App() {
         <Route path='/inventory-items' element={<InventoryItems />}></Route>
         <Route path='/blogs' element={<Blog />}></Route>
         <Route path='/additem' element={<AddItem />}></Route>
+        <Route path='/my-item' element={<MyItem />}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path='/login' element={<Login />}></Route>
         <Route path='/register' element={<Register />}></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }

@@ -47,21 +47,15 @@ const Header = () => {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to='/manage-items'
+                                <Link to='/inventory-items'
                                     className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
 
                                 >
-                                    <i className="fa-solid fa-user text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Manange Item</span>
+                                    <i class="fa-solid fa-box-circle-check"></i>
+                                    <i className="fa-solid fa-user text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Inventories</span>
                                 </Link>
                             </li>
-                            <li className="nav-item">
-                                <Link to='/additem'
-                                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
 
-                                >
-                                    <i className="fa-solid fa-user text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Add Item</span>
-                                </Link>
-                            </li>
                             <li className="nav-item">
                                 <Link to='/blogs'
                                     className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
@@ -74,7 +68,34 @@ const Header = () => {
                                 {
                                     user ?
 
-                                        <div className='flex'>
+                                        <div className='md:flex'>
+
+                                            <li className="nav-item">
+                                                <Link to='/manage-items'
+                                                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+
+                                                >
+                                                    <i className="fa-solid fa-user text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Manange Item</span>
+                                                </Link>
+                                            </li>
+                                            <li className="nav-item">
+                                                <Link to='/additem'
+                                                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+
+                                                >
+                                                    <i className="fa-solid fa-user text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Add Item</span>
+                                                </Link>
+                                            </li>
+                                            <li className="nav-item">
+                                                <Link to='/my-item'
+                                                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+
+                                                >
+                                                    <i className="fa-solid fa-user text-lg leading-lg text-white opacity-75"></i><span className="ml-2">My Item</span>
+                                                </Link>
+                                            </li>
+
+
                                             <img className='w-10 h-10 rounded-full' src={user.photoURL} alt='' />
                                             <span className='mt-2 pr-5 text-white'>{user.displayName}</span>
                                             <button onClick={logout}
@@ -85,7 +106,7 @@ const Header = () => {
                                             </button>
                                         </div>
                                         :
-                                        <div className='flex'>
+                                        <div className='md:flex'>
                                             <li className="nav-item">
                                                 <Link to='/login'
                                                     className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
